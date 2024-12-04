@@ -19,7 +19,9 @@ CONFIG_PACKAGE_iptables-mod-socket=y
 CONFIG_PACKAGE_iptables-mod-tproxy=y
 CONFIG_PACKAGE_iptables-nft=y
 CONFIG_PACKAGE_xtables-nft=y
-# CONFIG_PACKAGE_iptables-legacy is not set
+CONFIG_PACKAGE_arptables-nft=y
+CONFIG_PACKAGE_ebtables-nft=y
+CONFIG_PACKAGE_iptables-legacy=y
 
 # Natflow
 CONFIG_PACKAGE_natflow=m
